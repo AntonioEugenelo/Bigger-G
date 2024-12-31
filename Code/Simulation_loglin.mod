@@ -87,7 +87,7 @@ model;
     (1-s1g)^2/(1-s1g + s1g^(1+rho)/(1-s1g)^rho)*g2 = Gbar - (s1g)^2/(s1g+((1-s1g)^(1+rho)/s1g^rho)) * g1;
     
     // Log-linearized utility function using steady-state values
-    U = -(s1p*((1+phi)*(y1^2) + theta * (1-chi1)* pi1^2 / Lambda1 + chi1/((1-chi1)*(sp))*(y1-g1)^2 - 2*(1-sp)/(sp)*y1 + 2*s1g/sp*g1) + (1-s1p)*((1+phi)*y2^2 + theta * (1-chi2) * pi2^2 / Lambda2 + chi2/((1-chi2)*(sp))*(y2-g2)^2 - 2*(1-sp)/sp*y2 + 2*(1-s1g)/sp*g2));
+    U = -(s1p*((1+phi)*(y1^2) + theta * (1-chi1)* pi1^2 / Lambda1) + (1-s1p)*((1+phi)*y2^2 + theta * (1-chi2) * pi2^2 / Lambda2));
 end;
 
 initval;
