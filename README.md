@@ -16,4 +16,4 @@ The figures are sorted into folders by the parameter mu, representing the ratio 
 Further branches indicate possible alterations to the Objective function:
 1. Basic quadratic objective in output gap and inflation
 2. Log-linearized consumer utility (default)
-3. Government utility internalizing a positive effect of government expenditure, as shown in https://www.nber.org/papers/w32914 
+3. Aggregate utility internalizing a positive effect of government expenditure, as shown in https://www.nber.org/papers/w32914 
