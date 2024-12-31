@@ -9,7 +9,9 @@ Since the IRFs from the model rely on pivotal parameters, namely the intrasector
 
 1. Simulation_loglin.mod holds the Dynare model, with parameters a, theta, and rho expressed as global variables with standard default values.
 2. Optimize_loglin.m holds the Matlab code iterating the Dynare model for all suggested values of theta and rho, for each combination of which it will determine an optimal a (policy parameter), it then saves the IRFs for the optimal values
-3. The IRFs figure files contain the saved results for each optimal policy 
+3. Compute_utility holds the function used to simulate and average out the utility over the next 20 periods for a given policy parameter a
+4. The Proofs folder contains the Mathematical proofs required for the model
+5. The IRFs figure files contain the saved results for each optimal policy 
 
 The figures are sorted into folders by the parameter mu, representing the ratio of government spending internalized into the Firm's price-setting problem (0<mu<1).
 
